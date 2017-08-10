@@ -6,9 +6,9 @@ This is my solution to the assignment **Images** of class **software developemen
 ### Requirements
 This assignment required "drawing" images with text. So every "picture" only consists of Strings or characters, which represent, what will be visible on the image. For example:
 
->Berlin
->in
->Winter
+    Berlin  
+    in  
+    Winter  
 
 represents an image of Berlin covered in snow. My task was, to write a program, consisting of classes which represent different kinds of images. This program consists of the following classes:
 * Interface **Image**
@@ -29,16 +29,16 @@ This class implements just a toString method, to print any kind of text image to
 
 #### Class TextImage
 Objects of this class represent a simple text image, all lines are arranged left to right and top to bottom. The lines are left-justified. For example:
->Berlin
->in
->Winter
+    Berlin  
+    in  
+    Winter  
 All methods from the interface should be implemented. Furthermore should it be possible to modify the content of every single line of a **TextImage** object, but the number of lines a text image consists of is fixed and cannot be modified. 
 
 #### Class ModernImage
 An object of this class only consists of one type of character. This single character could be any possible character. This class also needs values for height and width of a modern image, so a modern image is made out of a single character, which multiplies **width** times in width and **height** times in height. For example:
->********
->********
->********
+    ++++++++
+    ++++++++
+    ++++++++
 This is the only type of image, that could be changed in height and width.
 
 #### Class FramedImage
