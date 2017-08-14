@@ -1,7 +1,11 @@
 /**
- * Klasse, die nur zum testen der einzelnen Klassen da ist.
+ * Organisation: University of applied sciences Munich, faculty 07
+ * Project: lab to class software developement 1 Mrs. Prof. Dr. Hammerschall, WS 2016/2017
+ * Author: Sebastian Baumann, sebastian_baumann@gmx.net
+ * Study group: IF3A
+ * Date: 20. December 2016
+ * Purpose: solution to lab Images
  */
-
 public class Main {
 
     /**
