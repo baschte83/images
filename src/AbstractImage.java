@@ -1,17 +1,12 @@
 /**
- * Organisation: Hochschule Muenchen, Fakultaet 07<br>
- * Project: Praktikum Softwareentwicklung 1 Frau Prof. Dr. Hammerschall, WS 2016/2017<br>
- * Study group: IF3A<br>
- * Date: 20. Dezember 2016<br>
- * Purpose: Loesung Praktikumseinheit 07: AbstractImage<br>
- * Software: Oracle Java SE JDK 1.8.0_101, Windows 10 x86_64<br>
- * Hardware: Intel Core i5-6300 @ 2.40 GHz 2.50 GHz, 2 Cores, 4096 MB RAM<br>
- *
- * @author Sebastian Baumann
- * @version 1.0
+ * Organisation: University of applied sciences Munich, faculty 07
+ * Project: lab to class software developement 1 Mrs. Prof. Dr. Hammerschall, WS 2016/2017
+ * Author: Sebastian Baumann, sebastian_baumann@gmx.net
+ * Study group: IF3A
+ * Date: 20. December 2016
+ * Purpose: solution to lab Images
  */
-
-public abstract class AbstractImage implements Image {
+abstract class AbstractImage implements Image {
 
     /**
      * Method to print an image to the screen.
@@ -19,7 +14,7 @@ public abstract class AbstractImage implements Image {
      * It adds line after line to the local string-variable imageRepresentation
      * and returns this string.
      * @see Image
-     * @return an image as an array of strings.
+     * @return - returns an image as an array of strings.
      */
     public String toString() {
 
@@ -39,10 +34,10 @@ public abstract class AbstractImage implements Image {
      * Private assistance method to fill up short lines with blanks.
      * If lines are not filled up with characters till the width given
      * by getWidth, than the line has to be filled up with blanks.
-     * @param str string that has to be filled up with blanks.
-     * @return returns the filled up line as a string.
+     * @param str - string that has to be filled up with blanks.
+     * @return - returns the filled up line as a string.
      */
-    protected String fillItUp(String str) {
+    String fillItUp(String str) {
 
         String line = str;
         // If length of str is shorter than getWidth(), than str should be filled up with blanks.

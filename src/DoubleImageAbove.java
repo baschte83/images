@@ -1,20 +1,15 @@
 /**
- * Organisation: Hochschule Muenchen, Fakultaet 07<br>
- * Project: Praktikum Softwareentwicklung 1 Frau Prof. Dr. Hammerschall, WS 2016/2017<br>
- * Study group: IF3A<br>
- * Date: 20. Dezember 2016<br>
- * Purpose: Loesung Praktikumseinheit 07: DoubleImageAbove<br>
- * Software: Oracle Java SE JDK 1.8.0_101, Windows 10 x86_64<br>
- * Hardware: Intel Core i5-6300 @ 2.40 GHz 2.50 GHz, 2 Cores, 4096 MB RAM<br>
- *
- * @author Sebastian Baumann
- * @version 1.0
+ * Organisation: University of applied sciences Munich, faculty 07
+ * Project: lab to class software developement 1 Mrs. Prof. Dr. Hammerschall, WS 2016/2017
+ * Author: Sebastian Baumann, sebastian_baumann@gmx.net
+ * Study group: IF3A
+ * Date: 20. December 2016
+ * Purpose: solution to lab Images
  */
-
 public class DoubleImageAbove extends AbstractImage {
 
     /**
-     * Private object-variable that stores an image as an array of strings.
+     * Private variable to store an image as an array of strings.
      */
     private final Image oldImageFirst;
     private final Image oldImageSecond;
@@ -23,8 +18,8 @@ public class DoubleImageAbove extends AbstractImage {
      * Constructor of an DoubleImageAbove image.
      * This constructor gets two objects of an AbstractImage or a class,
      * that inherits from AbstractImage class.
-     * @param imgOne AbstractImage object or an object of a class, that inherits from AbstractImage
-     * @param imgTwo AbstractImage object or an object of a class, that inherits from AbstractImage
+     * @param imgOne - AbstractImage object or an object of a class, that inherits from AbstractImage
+     * @param imgTwo - AbstractImage object or an object of a class, that inherits from AbstractImage
      */
     DoubleImageAbove(Image imgOne, Image imgTwo) {
 
@@ -37,7 +32,7 @@ public class DoubleImageAbove extends AbstractImage {
      * Gets the number of lines of this image.
      * This method sums up the amount of lines of both stored images
      * oldImageFirst and oldImageSecond and returns their sum as an integer.
-     * @return the number of lines of this image as an integer.
+     * @return - returns the number of lines of this image as an integer.
      */
     @Override
     public int getHeight() {
@@ -50,7 +45,7 @@ public class DoubleImageAbove extends AbstractImage {
      * Gets the length of the widest line of this image.
      * The method finds out which of the two stored images oldImageFirst and oldImageSecond
      * is the widest one and returns that width as an integer.
-     * @return length as an integer.
+     * @return - returns the length as an integer.
      */
     @Override
     public int getWidth() {
@@ -68,8 +63,8 @@ public class DoubleImageAbove extends AbstractImage {
     /**
      * Gets the line to the given index.
      * Method gets the string on position index of the image-array.
-     * @param index an integer-value of the line, that ist required
-     * @return the line as a string
+     * @param index - an integer-value of the line, that ist required.
+     * @return - returns the line as a string.
      */
     @Override
     public String getLine(int index) {

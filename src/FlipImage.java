@@ -1,16 +1,11 @@
 /**
- * Organisation: Hochschule Muenchen, Fakultaet 07<br>
- * Project: Praktikum Softwareentwicklung 1 Frau Prof. Dr. Hammerschall, WS 2016/2017<br>
- * Study group: IF3A<br>
- * Date: 20. Dezember 2016<br>
- * Purpose: Loesung Praktikumseinheit 07: FlipImage<br>
- * Software: Oracle Java SE JDK 1.8.0_101, Windows 10 x86_64<br>
- * Hardware: Intel Core i5-6300 @ 2.40 GHz 2.50 GHz, 2 Cores, 4096 MB RAM<br>
- *
- * @author Sebastian Baumann
- * @version 1.0
+ * Organisation: University of applied sciences Munich, faculty 07
+ * Project: lab to class software developement 1 Mrs. Prof. Dr. Hammerschall, WS 2016/2017
+ * Author: Sebastian Baumann, sebastian_baumann@gmx.net
+ * Study group: IF3A
+ * Date: 20. December 2016
+ * Purpose: solution to lab Images
  */
-
 public class FlipImage extends AbstractImage {
 
     /**
@@ -30,7 +25,7 @@ public class FlipImage extends AbstractImage {
 
     /**
      * Gets the number of lines of this image.
-     * @return the number of lines of this image as an integer
+     * @return - returns the number of lines of this image as an integer
      */
     @Override
     public int getHeight() {
@@ -41,7 +36,7 @@ public class FlipImage extends AbstractImage {
 
     /**
      * Gets the width of one line of this image.
-     * @return length of the widest line as an integer.
+     * @return - returns length of the widest line as an integer.
      */
     @Override
     public int getWidth() {
@@ -54,8 +49,8 @@ public class FlipImage extends AbstractImage {
      * Gets the line to the given index.
      * Method gets the string on position index of this image-array and reverses it
      * with the StringBuilder-method reverse().
-     * @param index an integer-value of the line, that ist required.
-     * @return the required line as a string.
+     * @param index - an integer-value of the line, that ist required.
+     * @return - returns the required line as a string.
      */
     @Override
     public String getLine(int index) {
